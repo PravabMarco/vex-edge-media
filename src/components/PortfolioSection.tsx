@@ -2,40 +2,40 @@ import { motion } from "framer-motion";
 
 const works = [
   {
-    title: "SEO Growth",
-    category: "Advertisement",
-    desc: "Boosted an e-commerce brand's organic traffic by 250% with keyword optimization and link-building.",
-    stat: "+250%",
+    title: "E-Commerce Platform",
+    category: "Full-Stack",
+    desc: "Built a complete MERN e-commerce app with Stripe payments, real-time inventory, and admin dashboard.",
+    stat: "10K+ Users",
   },
   {
-    title: "Website Redesign",
-    category: "Design",
-    desc: "Transformed a startup's outdated website. Bounce rate dropped by 45%, engagement surged by 60%.",
-    stat: "-45%",
+    title: "SaaS Dashboard",
+    category: "React",
+    desc: "Developed a multi-tenant analytics dashboard with React, Chart.js, and real-time WebSocket data streaming.",
+    stat: "99.9% Uptime",
   },
   {
-    title: "Google Ads Performance",
-    category: "Advertisement",
-    desc: "Scaled a Shopify store's revenue 3X with data-driven ad strategies, ROAS from 2.5 to 6.0.",
-    stat: "6.0 ROAS",
+    title: "Social Media App",
+    category: "Full-Stack",
+    desc: "Real-time social platform with React, Socket.io, MongoDB, and JWT auth — supporting 50K concurrent users.",
+    stat: "50K Users",
   },
   {
-    title: "Ad Campaign Strategy",
-    category: "Advertisement",
-    desc: "Optimized targeting, ad creatives, and budget allocation for higher ROAS and lower costs.",
-    stat: "3X Revenue",
+    title: "REST API Architecture",
+    category: "Backend",
+    desc: "Designed a microservices API with Node.js, Express, and MongoDB handling 1M+ requests per day.",
+    stat: "1M+ Req/Day",
   },
   {
-    title: "Meta Ads Scaling",
-    category: "Advertisement",
-    desc: "Drove a 4.2X ROAS for a fashion brand through Facebook and Instagram ad optimization.",
-    stat: "4.2X ROAS",
+    title: "Admin Panel System",
+    category: "React",
+    desc: "Feature-rich admin panel with role-based access, data tables, charts, and CRUD operations using React Query.",
+    stat: "200+ Components",
   },
   {
-    title: "Social Media Growth",
-    category: "Management",
-    desc: "Increased followers by 120% in 3 months, tripling engagement through interactive content.",
-    stat: "+120%",
+    title: "Real-Time Chat App",
+    category: "Full-Stack",
+    desc: "End-to-end encrypted chat application with Socket.io, React, and MongoDB for instant messaging.",
+    stat: "<50ms Latency",
   },
 ];
 
@@ -52,7 +52,7 @@ const PortfolioSection = () => {
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">Our Works</span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mt-3">
             Turning Ideas into{" "}
-            <span className="gradient-text">Growth</span>
+            <span className="gradient-text">Production Apps</span>
           </h2>
         </motion.div>
 

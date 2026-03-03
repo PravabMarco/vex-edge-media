@@ -16,14 +16,14 @@ const HeroSection = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-block gradient-bg px-4 py-1.5 rounded-full text-xs font-semibold text-primary-foreground mb-6 tracking-wider uppercase">
-              Digital Marketing Agency
+              MERN Stack Development Agency
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight mb-6">
-              Grow Your Business with{" "}
-              <span className="gradient-text">Smarter Marketing</span>
+              Build Scalable Apps with{" "}
+              <span className="gradient-text">React & Node.js</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed">
-              We help businesses grow with proven digital marketing strategies. From Google Ads and SEO to Meta Ads and website design — we deliver data-backed results.
+              We specialize in full-stack MERN development — MongoDB, Express, React, and Node.js. From custom web apps to high-performance dashboards, we ship production-ready code.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -50,7 +50,7 @@ const HeroSection = () => {
             <div className="relative animate-float">
               <img
                 src={heroImage}
-                alt="Digital marketing dashboard illustration"
+                alt="MERN stack development dashboard illustration"
                 className="w-full max-w-lg mx-auto drop-shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />

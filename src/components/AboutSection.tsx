@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const features = [
-  "Innovative Strategies",
-  "Professional Staff",
-  "24/7 Support",
-  "Custom Solutions",
+  "React & Next.js Experts",
+  "REST & GraphQL APIs",
+  "CI/CD & DevOps",
+  "Agile Development",
 ];
 
 const AboutSection = () => {
@@ -22,10 +22,10 @@ const AboutSection = () => {
             <span className="text-sm font-semibold text-primary uppercase tracking-wider">About Us</span>
             <h2 className="text-3xl md:text-4xl font-display font-bold mt-3 mb-6">
               Your Partner in{" "}
-              <span className="gradient-text">Digital Growth</span>
+              <span className="gradient-text">MERN Stack Development</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              At VexEdge, we bring experience, innovation, and performance-driven results to businesses looking to thrive online. With a high-ranking eBay store, Shopify sales nearing $1M, and 50K+ Amazon items sold, we know what works in digital marketing.
+              At VexEdge, we build robust, scalable web applications using the MERN stack. With 50+ React projects shipped, enterprise-grade APIs, and real-time applications deployed at scale — we turn your ideas into production-ready software.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
@@ -57,29 +57,29 @@ const AboutSection = () => {
             <div className="glass-card p-8 space-y-6">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-2xl gradient-bg flex items-center justify-center text-2xl font-display font-bold text-primary-foreground">
-                  $1M
+                  50+
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Shopify Sales</p>
-                  <p className="text-sm text-muted-foreground">Revenue generated</p>
+                  <p className="font-semibold text-foreground">React Projects</p>
+                  <p className="text-sm text-muted-foreground">Shipped to production</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-2xl bg-violet/20 border border-violet/30 flex items-center justify-center text-2xl font-display font-bold text-violet">
-                  50K+
+                  99%
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Amazon Items Sold</p>
-                  <p className="text-sm text-muted-foreground">In 2024 alone</p>
+                  <p className="font-semibold text-foreground">Uptime Guarantee</p>
+                  <p className="text-sm text-muted-foreground">For deployed applications</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-2xl bg-primary/20 border border-primary/30 flex items-center justify-center text-2xl font-display font-bold text-primary">
-                  #1
+                  24/7
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">eBay Store Ranking</p>
-                  <p className="text-sm text-muted-foreground">Top-performing seller</p>
+                  <p className="font-semibold text-foreground">Developer Support</p>
+                  <p className="text-sm text-muted-foreground">Post-launch maintenance</p>
                 </div>
               </div>
             </div>
