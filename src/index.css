@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root,
+  .dark {
     --background: 222 60% 5%;
     --foreground: 220 20% 90%;
 
@@ -36,7 +37,6 @@
 
     --radius: 0.75rem;
 
-    /* Custom tokens */
     --navy: 222 60% 5%;
     --navy-light: 222 40% 10%;
     --electric-blue: 220 100% 61%;
@@ -52,6 +52,54 @@
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 222 20% 15%;
     --sidebar-ring: 220 100% 61%;
+  }
+
+  .light {
+    --background: 220 20% 97%;
+    --foreground: 222 40% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 40% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 40% 12%;
+
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 80% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 270 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 85%;
+    --input: 220 15% 85%;
+    --ring: 220 100% 50%;
+
+    --radius: 0.75rem;
+
+    --navy: 220 20% 97%;
+    --navy-light: 220 15% 92%;
+    --electric-blue: 220 100% 50%;
+    --violet: 270 80% 60%;
+    --glow-blue: 220 100% 50%;
+    --glow-violet: 270 80% 60%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 40% 12%;
+    --sidebar-primary: 220 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 80% 60%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 15% 85%;
+    --sidebar-ring: 220 100% 50%;
   }
 }
 
