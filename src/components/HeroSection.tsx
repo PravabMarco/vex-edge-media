@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-20">
       {/* Background glow orbs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-electric-blue/10 blur-[120px] animate-glow-pulse" />
-      <div className="absolute bottom-1/4 -right-32 w-96 h-96 rounded-full bg-violet/10 blur-[120px] animate-glow-pulse" style={{ animationDelay: "1.5s" }} />
+      <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full bg-primary/10 blur-[120px] animate-glow-pulse" />
+      <div className="absolute bottom-1/4 -right-32 w-96 h-96 rounded-full bg-accent/10 blur-[120px] animate-glow-pulse" style={{ animationDelay: "1.5s" }} />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -16,14 +16,14 @@ const HeroSection = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-block gradient-bg px-4 py-1.5 rounded-full text-xs font-semibold text-primary-foreground mb-6 tracking-wider uppercase">
-              MERN Stack Development Agency
+              Digital Marketing Agency
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight mb-6">
-              Build Scalable Apps with{" "}
-              <span className="gradient-text">React & Node.js</span>
+              Grow Your Business with{" "}
+              <span className="gradient-text">Smarter Marketing</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed">
-              We specialize in full-stack MERN development — MongoDB, Express, React, and Node.js. From custom web apps to high-performance dashboards, we ship production-ready code.
+              At Inside Vex Edge, we help businesses grow with proven digital marketing strategies. With success on eBay, Amazon, and Shopify, we know what drives traffic, boosts conversions, and builds strong brands.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -50,7 +50,7 @@ const HeroSection = () => {
             <div className="relative animate-float">
               <img
                 src={heroImage}
-                alt="MERN stack development dashboard illustration"
+                alt="Digital marketing growth illustration"
                 className="w-full max-w-lg mx-auto drop-shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />

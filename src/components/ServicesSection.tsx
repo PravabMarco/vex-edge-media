@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { Code2, Monitor, Server, Database, Layers, GitBranch } from "lucide-react";
+import { TrendingUp, Search, Monitor, Megaphone, Users, Share2 } from "lucide-react";
 
 const services = [
   {
-    icon: Code2,
-    title: "React Development",
-    desc: "Build dynamic, component-driven UIs with React, Redux, and modern state management for seamless user experiences.",
+    icon: TrendingUp,
+    title: "Google SEO",
+    desc: "Drive organic traffic and get to the top of search results with our expert SEO strategies.",
   },
   {
-    icon: Server,
-    title: "Node.js & Express APIs",
-    desc: "Design and develop RESTful and GraphQL APIs with Express.js, handling authentication, validation, and real-time data.",
-  },
-  {
-    icon: Database,
-    title: "MongoDB & Database Design",
-    desc: "Architect efficient NoSQL schemas with MongoDB, Mongoose ODM, aggregation pipelines, and optimized queries.",
+    icon: Search,
+    title: "Google Ads",
+    desc: "Maximize your ROI with targeted and high-converting PPC campaigns.",
   },
   {
     icon: Monitor,
-    title: "Full-Stack Web Apps",
-    desc: "End-to-end MERN stack applications — from responsive frontends to scalable backends, deployed and production-ready.",
+    title: "Website Design",
+    desc: "Build high-performance, visually stunning websites that convert visitors into customers.",
   },
   {
-    icon: Layers,
-    title: "UI/UX & Frontend Design",
-    desc: "Pixel-perfect interfaces using Tailwind CSS, Framer Motion, and modern design systems for stunning user experiences.",
+    icon: Megaphone,
+    title: "Ad Campaign Management",
+    desc: "Strategically planning, optimizing, and scaling ad campaigns across platforms to maximize performance and ROI.",
   },
   {
-    icon: GitBranch,
-    title: "DevOps & Deployment",
-    desc: "CI/CD pipelines, Docker containerization, AWS/Vercel deployments, and monitoring for reliable production systems.",
+    icon: Users,
+    title: "Meta Ads",
+    desc: "Reach your audience effectively through strategic Facebook and Instagram advertising.",
+  },
+  {
+    icon: Share2,
+    title: "Social Media Management",
+    desc: "Managing and creating engaging content across social media platforms to grow brand presence and interact with customers.",
   },
 ];
 
@@ -46,8 +46,8 @@ const ServicesSection = () => {
         >
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">Our Services</span>
           <h2 className="text-3xl md:text-4xl font-display font-bold mt-3">
-            Full-Stack Solutions with{" "}
-            <span className="gradient-text">MERN Stack</span>
+            Awesome Services for{" "}
+            <span className="gradient-text">Our Customers</span>
           </h2>
         </motion.div>
 
