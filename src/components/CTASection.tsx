@@ -17,10 +17,10 @@ const CTASection = () => {
 
           <div className="relative z-10 max-w-2xl">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-primary-foreground mb-4">
-              Ready to Build Your Next App?
+              Ready to Grow Your Business?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
-              Let's turn your idea into a scalable MERN stack application. From concept to deployment — we handle the full development lifecycle.
+              Let's work together to boost your online presence and drive real results. Reach out now and let's make your vision a reality.
             </p>
             <a
               href="#contact"
