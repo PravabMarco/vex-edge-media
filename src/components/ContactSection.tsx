@@ -36,7 +36,7 @@ const ContactSection = () => {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone || "N/A"}\n\nMessage:\n${formData.message}`
     );
-    window.open(`mailto:admin@vexedgead.com?subject=${subject}&body=${body}`, "_self");
+    window.open(`mailto:edgevex@gmail.com?subject=${subject}&body=${body}`, "_self");
 
     // Show thank you toast
     setTimeout(() => {
