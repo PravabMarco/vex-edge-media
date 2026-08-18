@@ -84,17 +84,13 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="font-display font-semibold text-foreground">Email Us</h4>
-                <p className="text-muted-foreground text-sm mt-1">admin@vexedgead.com</p>
+                <p className="text-muted-foreground text-sm mt-1">support@vexmedia.us</p>
               </div>
             </div>
 
             <div className="glass-card p-6 flex items-start gap-4">
               <div className="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center shrink-0">
                 <Phone size={18} className="text-primary-foreground" />
-              </div>
-              <div>
-                <h4 className="font-display font-semibold text-foreground">Call Us</h4>
-                <p className="text-muted-foreground text-sm mt-1">+1 (307) 441-7925</p>
               </div>
             </div>
 
