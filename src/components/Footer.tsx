@@ -41,11 +41,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Mail size={14} className="text-primary" />
-                admin@vexedgead.com
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone size={14} className="text-primary" />
-                +1 (307) 441-7925
+                support@vexmedia.us
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={14} className="text-primary" />
